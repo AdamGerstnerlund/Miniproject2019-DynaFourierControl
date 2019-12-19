@@ -12,8 +12,8 @@
  *      get present temperature and reset or stop motor if too high  *
  *********************************************************************/
 
-// purple wire jumper wire must be in I/O pin 19!
-// grey wire jumper wire must be in I/O pin 18!
+// Purple jumper wire must be in I/O pin 19 (for CC)
+// Grey jumper wire must be in I/O pin 18 (for CC)
 
 #include <Wire.h>                       // Necessary for some boards to communcate with I^2C devices
 
